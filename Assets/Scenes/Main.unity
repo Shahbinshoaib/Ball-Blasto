@@ -152,9 +152,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e98f437cec124affa2e598753a9212d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetMarbels:
+  marbels:
   - {fileID: 8059498131834428809, guid: 59256407148134dccaec6054532a2364, type: 3}
-  - {fileID: 8059498131834428809, guid: 59256407148134dccaec6054532a2364, type: 3}
+  - {fileID: 4556726340613918053, guid: 2449f54c9e7974f04a1d598bf9af6459, type: 3}
+  - {fileID: 3372665680573230579, guid: 6a018ec5d5e964dbfa64a308827fe23c, type: 3}
+  - {fileID: 8382022267195476335, guid: d209335b86f164a54bc136f5abf864d0, type: 3}
+  - {fileID: 1839079203675847093, guid: b7df576b88f2f4d3c84ca61bc4e71b87, type: 3}
+  - {fileID: 1940083358374289865, guid: e37d24feac40f48c6bbca85b8580117c, type: 3}
 --- !u!4 &152145103
 Transform:
   m_ObjectHideFlags: 0
@@ -388,7 +392,7 @@ BoxCollider:
   m_GameObject: {fileID: 1071370360}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}

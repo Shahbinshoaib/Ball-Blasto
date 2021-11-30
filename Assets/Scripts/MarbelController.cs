@@ -5,8 +5,10 @@ using UnityEngine;
 public class MarbelController : MonoBehaviour
 {
     private Rigidbody marbelRB;
-    public float marbelSpeed;
     public GameManager gameManager;
+    public float marbelSpeed;
+    private bool isMarbelInMotion;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,26 +20,16 @@ public class MarbelController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (isMarbelInMotion)
+        {
+            ShootMarbel();
+        }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    void ShootMarbel()
     {
-        Debug.Log("Collision");
-        if (collision.gameObject.tag == "Player")
-        {
-            marbelRB.AddForce(Vector3.forward * marbelSpeed * Time.deltaTime, ForceMode.Impulse);
-            
-        }
-        if (collision.gameObject.tag != gameObject.tag && collision.gameObject.tag != "Player")
-        {
-            Debug.Log("Marbel no match");
-            gameManager.AddMarbel(gameObject);
-            Destroy(collision.gameObject);
-            Destroy(gameObject);
-        }
+        marbelRB.AddForce(Vector3.forward * marbelSpeed * Time.deltaTime, ForceMode.Impulse);
+
     }
-    private void OnTriggerEnter(Collider other)
-    {
-        
-    }
+
 }

@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - GreenBall
+  - BlueBall
+  - YellowBall
+  - Ground
+  - PurpleBall
+  - BrownBall
+  - RedBall
   layers:
   - Default
   - TransparentFX
