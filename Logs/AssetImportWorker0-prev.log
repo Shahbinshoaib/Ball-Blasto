@@ -1,0 +1,1904 @@
+Unity Editor version:    2020.3.19f1 (68f137dc9bbe)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.0.1 (Build 21A559)
+Darwin version:          21.1.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        8192 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/muhammadshahrukh/Github/Ball-Blasto
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55259
+Successfully changed project path to: /Users/muhammadshahrukh/Github/Ball-Blasto
+/Users/muhammadshahrukh/Github/Ball-Blasto
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 31.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/muhammadshahrukh/Github/Ball-Blasto/Assets
+GfxDevice: creating device client; threaded=0
+2021-12-07 16:00:59.627 Unity[23435:2657945] (null) preferred device: Apple M1 (high power)
+2021-12-07 16:00:59.627 Unity[23435:2657945] Metal devices available: 1
+2021-12-07 16:00:59.627 Unity[23435:2657945] 0: Apple M1 (high power)
+2021-12-07 16:00:59.627 Unity[23435:2657945] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56435
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.19f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001400 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 31.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.117 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3117ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (912ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (178ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (537ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (31ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (307ms)
+				ProcessInitializeOnLoadMethodAttributes (108ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002717 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.311 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2313ms)
+		BeginReloadAssembly (273ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (32ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1945ms)
+			LoadAssemblies (205ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (308ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1132ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (208ms)
+				ProcessInitializeOnLoadAttributes (884ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.000380 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.000396 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Initializing Unity extensions:
+2021-12-07 16:01:05.943 Unity[23435:2657945] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000094dce0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2021-12-07 16:01:05.946 Unity[23435:2657945] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000095f480 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1438 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 197.4 MB.
+System memory in use after: 196.6 MB.
+
+Unloading 82 unused Assets to reduce memory usage. Loaded Objects now: 1913.
+Total: 2.620583 ms (FindLiveObjects: 0.112416 ms CreateObjectMapping: 0.029584 ms MarkObjects: 2.051500 ms  DeleteObjects: 0.426167 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(1e98f437cec124affa2e598753a9212d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(1e98f437cec124affa2e598753a9212d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8feeff6388c0017ae62723b6aec853da') in 0.125793 seconds 
+  Import took 0.128018 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003170 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-07 16:10:26.459 Unity[23435:2657945] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000943640 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.347 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2348ms)
+		BeginReloadAssembly (237ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (30ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (86ms)
+		EndReloadAssembly (2019ms)
+			LoadAssemblies (195ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (301ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (1225ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (264ms)
+				ProcessInitializeOnLoadAttributes (925ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1431 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 199.6 MB.
+System memory in use after: 199.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1916.
+Total: 2.148750 ms (FindLiveObjects: 0.111583 ms CreateObjectMapping: 0.028542 ms MarkObjects: 1.979041 ms  DeleteObjects: 0.027625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000883 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-07 16:13:50.939 Unity[23435:2657945] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000942b50 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.335 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2336ms)
+		BeginReloadAssembly (250ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (39ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (88ms)
+		EndReloadAssembly (1989ms)
+			LoadAssemblies (199ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (303ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (1189ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (259ms)
+				ProcessInitializeOnLoadAttributes (889ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1431 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 199.8 MB.
+System memory in use after: 199.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1918.
+Total: 1.965542 ms (FindLiveObjects: 0.098959 ms CreateObjectMapping: 0.027083 ms MarkObjects: 1.823708 ms  DeleteObjects: 0.014917 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 765.895633 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(1e98f437cec124affa2e598753a9212d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(1e98f437cec124affa2e598753a9212d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c197984e37bec9d8b5e09349e02fcd') in 0.009526 seconds 
+  Import took 0.011797 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008010 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-07 16:14:44.864 Unity[23435:2657945] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000009635d0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.299 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2300ms)
+		BeginReloadAssembly (236ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (29ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (80ms)
+		EndReloadAssembly (1970ms)
+			LoadAssemblies (218ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (282ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (1191ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (241ms)
+				ProcessInitializeOnLoadAttributes (914ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (35ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1431 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.0 MB.
+System memory in use after: 200.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1920.
+Total: 2.041458 ms (FindLiveObjects: 0.126625 ms CreateObjectMapping: 0.028500 ms MarkObjects: 1.865209 ms  DeleteObjects: 0.020333 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003365 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-07 16:21:40.618 Unity[23435:2657945] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000942680 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.322 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2328ms)
+		BeginReloadAssembly (279ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (39ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (104ms)
+		EndReloadAssembly (1951ms)
+			LoadAssemblies (210ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (292ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (1161ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (234ms)
+				ProcessInitializeOnLoadAttributes (890ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1431 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.2 MB.
+System memory in use after: 200.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1922.
+Total: 2.114167 ms (FindLiveObjects: 0.107583 ms CreateObjectMapping: 0.028417 ms MarkObjects: 1.958166 ms  DeleteObjects: 0.018958 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002858 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-07 16:23:00.023 Unity[23435:2657945] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000009441c0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.147 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2148ms)
+		BeginReloadAssembly (219ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (34ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (1842ms)
+			LoadAssemblies (196ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (280ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (1079ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (221ms)
+				ProcessInitializeOnLoadAttributes (825ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1431 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.4 MB.
+System memory in use after: 200.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1924.
+Total: 2.009958 ms (FindLiveObjects: 0.116667 ms CreateObjectMapping: 0.027458 ms MarkObjects: 1.848542 ms  DeleteObjects: 0.016375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001393 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-07 16:25:40.402 Unity[23435:2657945] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000945c00 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.337 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2338ms)
+		BeginReloadAssembly (246ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (37ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (98ms)
+		EndReloadAssembly (1957ms)
+			LoadAssemblies (188ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (303ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (1154ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (245ms)
+				ProcessInitializeOnLoadAttributes (874ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1431 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.5 MB.
+System memory in use after: 200.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1926.
+Total: 2.195292 ms (FindLiveObjects: 0.154209 ms CreateObjectMapping: 0.029750 ms MarkObjects: 1.989000 ms  DeleteObjects: 0.021291 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000930 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-07 16:26:28.586 Unity[23435:2657945] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000094c770 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.326 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2330ms)
+		BeginReloadAssembly (251ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (39ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (94ms)
+		EndReloadAssembly (1987ms)
+			LoadAssemblies (200ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (311ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (1165ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (260ms)
+				ProcessInitializeOnLoadAttributes (870ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1431 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.7 MB.
+System memory in use after: 200.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1928.
+Total: 2.003000 ms (FindLiveObjects: 0.098833 ms CreateObjectMapping: 0.028208 ms MarkObjects: 1.857583 ms  DeleteObjects: 0.017417 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002988 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-07 16:28:49.562 Unity[23435:2657945] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000973020 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.433 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2435ms)
+		BeginReloadAssembly (258ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (51ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (88ms)
+		EndReloadAssembly (2081ms)
+			LoadAssemblies (211ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (305ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (1250ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (287ms)
+				ProcessInitializeOnLoadAttributes (927ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1431 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.9 MB.
+System memory in use after: 201.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1930.
+Total: 2.218250 ms (FindLiveObjects: 0.136791 ms CreateObjectMapping: 0.029917 ms MarkObjects: 2.026958 ms  DeleteObjects: 0.023708 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 953.502444 seconds.
+  path: Assets/Prefabs/BlueBall.prefab
+  artifactKey: Guid(59256407148134dccaec6054532a2364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BlueBall.prefab using Guid(59256407148134dccaec6054532a2364) Importer(815301076,1909f56bfc062723c751e8b465ee728b) You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:11)
+
+[Assets/Scripts/MarbelController.cs line 11]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:12)
+
+[Assets/Scripts/MarbelController.cs line 12]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:13)
+
+[Assets/Scripts/MarbelController.cs line 13]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:19)
+
+[Assets/Scripts/MarbelController.cs line 19]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:11)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:636)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:602)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:98)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:92)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:631)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:841)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Mono/MonoBehaviour.cpp line 137]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:12)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:636)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:602)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:98)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:92)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:631)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:841)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Mono/MonoBehaviour.cpp line 137]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:13)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:636)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:602)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:98)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:92)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:631)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:841)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Mono/MonoBehaviour.cpp line 137]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:19)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:636)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:602)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:98)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:92)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:631)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:841)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Mono/MonoBehaviour.cpp line 137]
+
+ -> (artifact id: 'c034a55ab0ed8c8d1ce9f7e945f2fa48') in 0.385686 seconds 
+  Import took 0.395214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.845410 seconds.
+  path: Assets/Prefabs/BrownBall.prefab
+  artifactKey: Guid(2449f54c9e7974f04a1d598bf9af6459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BrownBall.prefab using Guid(2449f54c9e7974f04a1d598bf9af6459) Importer(815301076,1909f56bfc062723c751e8b465ee728b) You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:11)
+
+[Assets/Scripts/MarbelController.cs line 11]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:12)
+
+[Assets/Scripts/MarbelController.cs line 12]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:13)
+
+[Assets/Scripts/MarbelController.cs line 13]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:19)
+
+[Assets/Scripts/MarbelController.cs line 19]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:11)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:636)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:602)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:98)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:92)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:631)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:841)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Mono/MonoBehaviour.cpp line 137]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:12)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:636)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:602)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:98)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:92)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:631)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:841)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Mono/MonoBehaviour.cpp line 137]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:13)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:636)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:602)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:98)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:92)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:631)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:841)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Mono/MonoBehaviour.cpp line 137]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:19)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:636)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:602)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:98)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:92)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:631)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:841)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Mono/MonoBehaviour.cpp line 137]
+
+ -> (artifact id: 'c93bea4f407749c3abf4e797c99e3a9c') in 0.018436 seconds 
+  Import took 0.021275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.183851 seconds.
+  path: Assets/Prefabs/GreenBall.prefab
+  artifactKey: Guid(6a018ec5d5e964dbfa64a308827fe23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GreenBall.prefab using Guid(6a018ec5d5e964dbfa64a308827fe23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:11)
+
+[Assets/Scripts/MarbelController.cs line 11]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:12)
+
+[Assets/Scripts/MarbelController.cs line 12]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:13)
+
+[Assets/Scripts/MarbelController.cs line 13]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:19)
+
+[Assets/Scripts/MarbelController.cs line 19]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:11)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:636)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:602)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:98)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:92)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:631)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:841)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Mono/MonoBehaviour.cpp line 137]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:12)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:636)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:602)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:98)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:92)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:631)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:841)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Mono/MonoBehaviour.cpp line 137]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:13)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:636)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:602)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:98)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:92)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:631)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:841)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Mono/MonoBehaviour.cpp line 137]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:19)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:636)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:602)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:98)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:92)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:631)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:841)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Mono/MonoBehaviour.cpp line 137]
+
+ -> (artifact id: '6c33c095a7ea3aff1ced6596f3630162') in 0.012008 seconds 
+  Import took 0.015628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.077574 seconds.
+  path: Assets/Prefabs/PurpleBall.prefab
+  artifactKey: Guid(d209335b86f164a54bc136f5abf864d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PurpleBall.prefab using Guid(d209335b86f164a54bc136f5abf864d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:11)
+
+[Assets/Scripts/MarbelController.cs line 11]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:12)
+
+[Assets/Scripts/MarbelController.cs line 12]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:13)
+
+[Assets/Scripts/MarbelController.cs line 13]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:19)
+
+[Assets/Scripts/MarbelController.cs line 19]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:11)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:636)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:602)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:98)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:92)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:631)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:841)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Mono/MonoBehaviour.cpp line 137]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:12)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:636)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:602)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:98)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:92)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:631)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:841)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Mono/MonoBehaviour.cpp line 137]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:13)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:636)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:602)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:98)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:92)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:631)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:841)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Mono/MonoBehaviour.cpp line 137]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:19)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:636)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:602)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:98)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:92)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:631)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:841)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Mono/MonoBehaviour.cpp line 137]
+
+ -> (artifact id: '66c2ce27a9cee289113192744d99ee9d') in 0.012956 seconds 
+  Import took 0.016825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.439721 seconds.
+  path: Assets/Prefabs/RedBall.prefab
+  artifactKey: Guid(b7df576b88f2f4d3c84ca61bc4e71b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RedBall.prefab using Guid(b7df576b88f2f4d3c84ca61bc4e71b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:11)
+
+[Assets/Scripts/MarbelController.cs line 11]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:12)
+
+[Assets/Scripts/MarbelController.cs line 12]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:13)
+
+[Assets/Scripts/MarbelController.cs line 13]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:19)
+
+[Assets/Scripts/MarbelController.cs line 19]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:11)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:636)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:602)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:98)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:92)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:631)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:841)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Mono/MonoBehaviour.cpp line 137]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:12)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:636)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:602)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:98)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:92)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:631)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:841)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Mono/MonoBehaviour.cpp line 137]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:13)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:636)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:602)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:98)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:92)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:631)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:841)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Mono/MonoBehaviour.cpp line 137]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:19)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:636)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:602)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:98)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:92)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:631)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:841)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Mono/MonoBehaviour.cpp line 137]
+
+ -> (artifact id: '02ab030d6637bc5a9408d5bb2c11cebe') in 0.019451 seconds 
+  Import took 0.023517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.343266 seconds.
+  path: Assets/Prefabs/YellowBall.prefab
+  artifactKey: Guid(e37d24feac40f48c6bbca85b8580117c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/YellowBall.prefab using Guid(e37d24feac40f48c6bbca85b8580117c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:11)
+
+[Assets/Scripts/MarbelController.cs line 11]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:12)
+
+[Assets/Scripts/MarbelController.cs line 12]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:13)
+
+[Assets/Scripts/MarbelController.cs line 13]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:19)
+
+[Assets/Scripts/MarbelController.cs line 19]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:11)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:636)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:602)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:98)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:92)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:631)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:841)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Mono/MonoBehaviour.cpp line 137]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:12)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:636)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:602)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:98)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:92)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:631)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:841)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Mono/MonoBehaviour.cpp line 137]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:13)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:636)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:602)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:98)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:92)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:631)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:841)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Mono/MonoBehaviour.cpp line 137]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:19)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:636)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:602)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:98)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:92)
+UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:631)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:841)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Mono/MonoBehaviour.cpp line 137]
+
+ -> (artifact id: '6089cb113f6855861684dc1cf9705f96') in 0.010957 seconds 
+  Import took 0.014388 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003571 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-07 16:30:29.173 Unity[23435:2657945] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000972d80 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.422 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2423ms)
+		BeginReloadAssembly (236ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (32ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (85ms)
+		EndReloadAssembly (2089ms)
+			LoadAssemblies (220ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (332ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (1218ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (249ms)
+				ProcessInitializeOnLoadAttributes (929ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (36ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1431 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.2 MB.
+System memory in use after: 206.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1939.
+Total: 2.352083 ms (FindLiveObjects: 0.143542 ms CreateObjectMapping: 0.030834 ms MarkObjects: 2.155958 ms  DeleteObjects: 0.020333 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002977 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-07 17:24:58.792 Unity[23435:2657945] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000097bc60 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.442 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2443ms)
+		BeginReloadAssembly (229ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (40ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (80ms)
+		EndReloadAssembly (2125ms)
+			LoadAssemblies (194ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (298ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (1304ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (254ms)
+				ProcessInitializeOnLoadAttributes (1003ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (43ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1431 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.4 MB.
+System memory in use after: 206.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1941.
+Total: 2.029583 ms (FindLiveObjects: 0.115000 ms CreateObjectMapping: 0.027833 ms MarkObjects: 1.867209 ms  DeleteObjects: 0.018625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 26666.457084 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(10daa7840c0db4c5092e2ecc3b3f41aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(10daa7840c0db4c5092e2ecc3b3f41aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d1128fe19282ba83e9c336d81e2f1ba') in 0.041722 seconds 
+  Import took 0.052621 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000935 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-07 23:55:10.966 Unity[23435:2657945] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000094c8c0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.346 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2347ms)
+		BeginReloadAssembly (237ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (36ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (84ms)
+		EndReloadAssembly (2014ms)
+			LoadAssemblies (201ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (305ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (1198ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (243ms)
+				ProcessInitializeOnLoadAttributes (919ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (36ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1431 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.6 MB.
+System memory in use after: 206.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1943.
+Total: 2.045292 ms (FindLiveObjects: 0.124250 ms CreateObjectMapping: 0.028375 ms MarkObjects: 1.867292 ms  DeleteObjects: 0.023542 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 465.353592 seconds.
+  path: Assets/LowPolyFantasyClouds/Demos/DemoScene.unity
+  artifactKey: Guid(e63a48d8517c68041933932df1415fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFantasyClouds/Demos/DemoScene.unity using Guid(e63a48d8517c68041933932df1415fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ea26b2b1cb96e3abd0828d84b4c190') in 0.048332 seconds 
+  Import took 0.060672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 892.982918 seconds.
+  path: Assets/charizard-pokemon-go.dae
+  artifactKey: Guid(b7804b6102198444eab5e7f2c8e13fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/charizard-pokemon-go.dae using Guid(b7804b6102198444eab5e7f2c8e13fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551d6811b283cfe29537e81626ca6e82') in 1.230527 seconds 
+  Import took 1.240505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.008319 seconds.
+  path: Assets/Pokemons
+  artifactKey: Guid(fbc846fc8ce834d509874e1aa587405a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokemons using Guid(fbc846fc8ce834d509874e1aa587405a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ce3359e8bb45bf0b0ec33c50992635') in 0.001395 seconds 
+  Import took 0.006548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.648288 seconds.
+  path: Assets/Pokemons/dragonite-pokemon-go.dae
+  artifactKey: Guid(5b5875f697c9e465d87ff92642bc7f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokemons/dragonite-pokemon-go.dae using Guid(5b5875f697c9e465d87ff92642bc7f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f933cbd69e2fcf4f7dec129d9cb04486') in 0.189244 seconds 
+  Import took 0.194500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.534020 seconds.
+  path: Assets/Prefabs/charizard-pokemon-go.prefab
+  artifactKey: Guid(2631e66450d8c493da464b3ba73ddd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/charizard-pokemon-go.prefab using Guid(2631e66450d8c493da464b3ba73ddd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8544ea4f7cc34a3d57d70f3f23779b6') in 0.030918 seconds 
+  Import took 0.044490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 213.225878 seconds.
+  path: Assets/Materials/lizardon-0-0.tga
+  artifactKey: Guid(6d636bbe7b8ba48a594ecd8624038369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/lizardon-0-0.tga using Guid(6d636bbe7b8ba48a594ecd8624038369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd6b9ccddb2aa15d05bfaeb18d622b5') in 0.673814 seconds 
+  Import took 0.688179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.300356 seconds.
+  path: Assets/Pokemons/Charizard
+  artifactKey: Guid(077bdb55883a1439aa9a98398afc7258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokemons/Charizard using Guid(077bdb55883a1439aa9a98398afc7258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '561aca1936553eccbaee42d01ddf6baa') in 0.001454 seconds 
+  Import took 0.005480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.223210 seconds.
+  path: Assets/Prefabs/charizard-pokemon-go.prefab
+  artifactKey: Guid(2631e66450d8c493da464b3ba73ddd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/charizard-pokemon-go.prefab using Guid(2631e66450d8c493da464b3ba73ddd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a85e2fd16b863c6ea3a3378cf3e1bb') in 0.040512 seconds 
+  Import took 0.047953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.119113 seconds.
+  path: Assets/Prefabs/Pokemons
+  artifactKey: Guid(c70f90a279d79425a83774f4c4f46f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemons using Guid(c70f90a279d79425a83774f4c4f46f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919cea449531cac10c8e8fab9f1c02f5') in 0.001139 seconds 
+  Import took 0.005870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.442171 seconds.
+  path: Assets/Pokemons/Charizard/indirectspotstudio-latlong-1krenderer.exr
+  artifactKey: Guid(25028356345374b128e1f540027f7fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokemons/Charizard/indirectspotstudio-latlong-1krenderer.exr using Guid(25028356345374b128e1f540027f7fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3792e58d370300fabf2d51bc0f724414') in 0.541504 seconds 
+  Import took 0.545454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.691171 seconds.
+  path: Assets/Pokemons/New Folder
+  artifactKey: Guid(ab280808a988a4d4cbd5f6d4bdeb8dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokemons/New Folder using Guid(ab280808a988a4d4cbd5f6d4bdeb8dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4abbdcd3d0d1ad3213f4b94757c648') in 0.003368 seconds 
+  Import took 0.013592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.724021 seconds.
+  path: Assets/Pokemons/Dragonite
+  artifactKey: Guid(ab280808a988a4d4cbd5f6d4bdeb8dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokemons/Dragonite using Guid(ab280808a988a4d4cbd5f6d4bdeb8dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa39eeb36f62eb0080760c1f6ca4e8d') in 0.001112 seconds 
+  Import took 0.007059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.053001 seconds.
+  path: Assets/Pokemons/Dragonite/kairyueyedh.tga
+  artifactKey: Guid(f3d20969fa19041639687493a8091d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokemons/Dragonite/kairyueyedh.tga using Guid(f3d20969fa19041639687493a8091d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c3a57e37fbdf4972d349af4c37c4aa') in 0.048821 seconds 
+  Import took 0.053088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.358536 seconds.
+  path: Assets/Pokemons/Dragonite/dragonite-pokemon-go.dae
+  artifactKey: Guid(3a51dd5277e0945ed8c8fc88430f2ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokemons/Dragonite/dragonite-pokemon-go.dae using Guid(3a51dd5277e0945ed8c8fc88430f2ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc7238a416b8d1d1afe8435504b93e8') in 0.093089 seconds 
+  Import took 0.098094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.305754 seconds.
+  path: Assets/Prefabs/dragonite-pokemon-go.prefab
+  artifactKey: Guid(75923e3b9933f447fa2480faf35349b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/dragonite-pokemon-go.prefab using Guid(75923e3b9933f447fa2480faf35349b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fee7dbf467ac965867e5f8f603a943c') in 0.009951 seconds 
+  Import took 0.013796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.368638 seconds.
+  path: Assets/Prefabs/Pokemons/dragonite-pokemon-go.prefab
+  artifactKey: Guid(75923e3b9933f447fa2480faf35349b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemons/dragonite-pokemon-go.prefab using Guid(75923e3b9933f447fa2480faf35349b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2168e6bcce418e52a7e36fa584cdddf2') in 0.010333 seconds 
+  Import took 0.014961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.816342 seconds.
+  path: Assets/Prefabs/Pokemons/dragonite-pokemon-go.prefab
+  artifactKey: Guid(75923e3b9933f447fa2480faf35349b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemons/dragonite-pokemon-go.prefab using Guid(75923e3b9933f447fa2480faf35349b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1664c9b9a77eeffc97cf71c88d5092') in 0.009637 seconds 
+  Import took 0.013995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 179.502037 seconds.
+  path: Assets/Pokemons/Charizard/sunnyport-thumb.jpg
+  artifactKey: Guid(bb19812716b334bbf92824cf6329b5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokemons/Charizard/sunnyport-thumb.jpg using Guid(bb19812716b334bbf92824cf6329b5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b21c03b91b6e723f001014d70f8b741') in 0.521647 seconds 
+  Import took 0.534578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 175.968462 seconds.
+  path: Assets/Prefabs/Pokemons/dragonite-pokemon-go.prefab
+  artifactKey: Guid(75923e3b9933f447fa2480faf35349b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemons/dragonite-pokemon-go.prefab using Guid(75923e3b9933f447fa2480faf35349b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86b91bdf084ddc273cd328db1734d70b') in 0.027916 seconds 
+  Import took 0.031706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.121568 seconds.
+  path: Assets/Prefabs/Pokemons/dragonite-pokemon-go.prefab
+  artifactKey: Guid(75923e3b9933f447fa2480faf35349b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemons/dragonite-pokemon-go.prefab using Guid(75923e3b9933f447fa2480faf35349b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d327c4e50ec428b01a2dea0fb70d6ec') in 0.019458 seconds 
+  Import took 0.024820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.710537 seconds.
+  path: Assets/Prefabs/Pokemons/dragonite-pokemon-go.prefab
+  artifactKey: Guid(75923e3b9933f447fa2480faf35349b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemons/dragonite-pokemon-go.prefab using Guid(75923e3b9933f447fa2480faf35349b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3edec6d1a58c2d8c265359e786c6eb08') in 0.024148 seconds 
+  Import took 0.027730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 374.259974 seconds.
+  path: Assets/Pokemons/New Folder
+  artifactKey: Guid(0ec542fcc6284492bb959ba4a2eb3a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokemons/New Folder using Guid(0ec542fcc6284492bb959ba4a2eb3a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5df8a2e375175b8aacd65bb7c0935e') in 0.013240 seconds 
+  Import took 0.027966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.410934 seconds.
+  path: Assets/Pokemons/Articuno
+  artifactKey: Guid(0ec542fcc6284492bb959ba4a2eb3a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokemons/Articuno using Guid(0ec542fcc6284492bb959ba4a2eb3a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfcda0dd26b897ba823fa3b26c402a57') in 0.001338 seconds 
+  Import took 0.006086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.902797 seconds.
+  path: Assets/Pokemons/Articuno/freezer-1-2.tga
+  artifactKey: Guid(67f14db4a9b32489da34d7ef9afb3dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokemons/Articuno/freezer-1-2.tga using Guid(67f14db4a9b32489da34d7ef9afb3dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e94a9d0b702e71eaeeaffc8db7de3e') in 0.050088 seconds 
+  Import took 0.054823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.781898 seconds.
+  path: Assets/Prefabs/Pokemons/articuno-pokemon-go.prefab
+  artifactKey: Guid(7218ddd139506448780cf30f4762426e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemons/articuno-pokemon-go.prefab using Guid(7218ddd139506448780cf30f4762426e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a446092811bdd18988f25bb44d7f6f80') in 0.020906 seconds 
+  Import took 0.025516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 163.785423 seconds.
+  path: Assets/Prefabs/Pokemons/articuno-pokemon-go.prefab
+  artifactKey: Guid(7218ddd139506448780cf30f4762426e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemons/articuno-pokemon-go.prefab using Guid(7218ddd139506448780cf30f4762426e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0953c9d682757d844d2eada8064ac42b') in 0.028260 seconds 
+  Import took 0.037524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.483528 seconds.
+  path: Assets/Pokemons/Pikachi
+  artifactKey: Guid(815a521dc7232464e8bec5eb3a9e767e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokemons/Pikachi using Guid(815a521dc7232464e8bec5eb3a9e767e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7d2ef198384cc39b6c8134a64fd2b6') in 0.002755 seconds 
+  Import took 0.009282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.971743 seconds.
+  path: Assets/Pokemons/Pikachi/posz.jpg
+  artifactKey: Guid(09eb7eb4e28e541cd8573df4f9cc540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokemons/Pikachi/posz.jpg using Guid(09eb7eb4e28e541cd8573df4f9cc540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76ac33b29f072a2e48e98d6186a765a') in 0.048385 seconds 
+  Import took 0.058499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 170.039186 seconds.
+  path: Assets/Pokemons/Pikachi/pikachu-pokemon-go 1.dae
+  artifactKey: Guid(3cd8873bec3194900bb29d73d34acd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokemons/Pikachi/pikachu-pokemon-go 1.dae using Guid(3cd8873bec3194900bb29d73d34acd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d11411994316de9815c0abd1674b90a') in 0.069970 seconds 
+  Import took 0.077794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 121.381028 seconds.
+  path: Assets/Pokemons/Pikachi/Materials
+  artifactKey: Guid(5fecf15c140d04ba1b16d1e152400381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokemons/Pikachi/Materials using Guid(5fecf15c140d04ba1b16d1e152400381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef983f9b03c42275e7de6621cc5a2278') in 0.002484 seconds 
+  Import took 0.013265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.844703 seconds.
+  path: Assets/Pokemons/Pikachi/ceilingarraystudio-latlong-1krenderer.exr
+  artifactKey: Guid(1145330be79d040bca22beba79dbf143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokemons/Pikachi/ceilingarraystudio-latlong-1krenderer.exr using Guid(1145330be79d040bca22beba79dbf143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6724f7dcead6658284828007a7d8189') in 0.024023 seconds 
+  Import took 0.028761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.528375 seconds.
+  path: Assets/Pokemons/Pikachu
+  artifactKey: Guid(e31617c0c9cf2464fb8b3124a4b7adc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokemons/Pikachu using Guid(e31617c0c9cf2464fb8b3124a4b7adc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8156fc5c03b780730459a0e18b655d3f') in 0.001633 seconds 
+  Import took 0.005035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.360482 seconds.
+  path: Assets/Pokemons/Pikachu/posz.jpg
+  artifactKey: Guid(8adce48678b474a55a5b36a03d324241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokemons/Pikachu/posz.jpg using Guid(8adce48678b474a55a5b36a03d324241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0144005d1c82332021f119b7b6ecbe32') in 0.018204 seconds 
+  Import took 0.040607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.959019 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(348f749a953754f4fb12305161836363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(348f749a953754f4fb12305161836363) Importer(815301076,1909f56bfc062723c751e8b465ee728b) You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:11)
+
+[Assets/Scripts/MarbelController.cs line 11]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:12)
+
+[Assets/Scripts/MarbelController.cs line 12]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:13)
+
+[Assets/Scripts/MarbelController.cs line 13]
+
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.MonoBehaviour:.ctor () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:20)
+Marbel:.ctor ()
+MarbelController:.ctor () (at Assets/Scripts/MarbelController.cs:19)
+
+[Assets/Scripts/MarbelController.cs line 19]
+
+ -> (artifact id: '3f15eb92849382518eb0a85159f217aa') in 0.049685 seconds 
+  Import took 0.053173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 127.412088 seconds.
+  path: Assets/Pokemons/Pikachi/ceilingarraystudioird-c05renderer.exr
+  artifactKey: Guid(21cab963d96d548a2a30be41434a5fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokemons/Pikachi/ceilingarraystudioird-c05renderer.exr using Guid(21cab963d96d548a2a30be41434a5fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2476164ae910fdb44172a7974b23192') in 0.021848 seconds 
+  Import took 0.031253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.553573 seconds.
+  path: Assets/Pokemons/Pikachi/fourareasstudioird-c03renderer.exr
+  artifactKey: Guid(2cf27bbb8e0b14fc58da90fc73bff64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokemons/Pikachi/fourareasstudioird-c03renderer.exr using Guid(2cf27bbb8e0b14fc58da90fc73bff64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24cdd239c275b1f302d2b2ea36288308') in 0.011300 seconds 
+  Import took 0.015981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.198759 seconds.
+  path: Assets/Pokemons/Pikachi/pikachu-1-5.tga
+  artifactKey: Guid(77f9546af105042cc9452177a72eadb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokemons/Pikachi/pikachu-1-5.tga using Guid(77f9546af105042cc9452177a72eadb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c063efb8d816e41d2f48d3228cbff6') in 0.012755 seconds 
+  Import took 0.017256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.864095 seconds.
+  path: Assets/Pokemons/Pikachi/pikachudh.tga
+  artifactKey: Guid(0e913d08f06894112b8511c53bd82fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokemons/Pikachi/pikachudh.tga using Guid(0e913d08f06894112b8511c53bd82fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4baaebf0ab6a208d2ef45d6dd4ff32f1') in 0.009824 seconds 
+  Import took 0.014824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.140789 seconds.
+  path: Assets/Pokemons/Pikachi/pm0025-00-bodya1.png
+  artifactKey: Guid(69339dd905b06494ba9891fe72497bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokemons/Pikachi/pm0025-00-bodya1.png using Guid(69339dd905b06494ba9891fe72497bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00a354fb2af7a32e2fb6afe1ebcf5d6') in 0.453202 seconds 
+  Import took 0.457115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.426043 seconds.
+  path: Assets/Pokemons/Pikachi/pikachu-pokemon-go 1.dae
+  artifactKey: Guid(3cd8873bec3194900bb29d73d34acd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokemons/Pikachi/pikachu-pokemon-go 1.dae using Guid(3cd8873bec3194900bb29d73d34acd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a5644322f696bd945737a922e2a8ba') in 0.095517 seconds 
+  Import took 0.104796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.937867 seconds.
+  path: Assets/Pokemons/Pikachi/pikachu-0-0.tga
+  artifactKey: Guid(f9b747f26765a4fada5cc1d01ccd8ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokemons/Pikachi/pikachu-0-0.tga using Guid(f9b747f26765a4fada5cc1d01ccd8ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a203a7d1e9ec09c4e3a6396d2ab801') in 0.013951 seconds 
+  Import took 0.018583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.286907 seconds.
+  path: Assets/Pokemons/Pikachi/negx.jpg
+  artifactKey: Guid(1ea91754d82f04dcbaadca8bc30b69a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokemons/Pikachi/negx.jpg using Guid(1ea91754d82f04dcbaadca8bc30b69a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af621f15f26df59a1b363686e8b5e62d') in 0.031653 seconds 
+  Import took 0.039579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 782.467427 seconds.
+  path: Assets/Pokemons/Bulabasur
+  artifactKey: Guid(e465bde675e3b40baa9a8a5146289973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokemons/Bulabasur using Guid(e465bde675e3b40baa9a8a5146289973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6d5b14521f9b3abab014a14b2f7518') in 0.002599 seconds 
+  Import took 0.025468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.506826 seconds.
+  path: Assets/Pokemons/Bulabasur/fushigidane-0-1.tga
+  artifactKey: Guid(df536b9327d6a4ea6be3f65b87372daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokemons/Bulabasur/fushigidane-0-1.tga using Guid(df536b9327d6a4ea6be3f65b87372daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91c0c46643a6f5fd806fef920f39c99') in 0.045314 seconds 
+  Import took 0.050809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.202566 seconds.
+  path: Assets/Prefabs/Pokemons/bulbasaur-pokemon-go.prefab
+  artifactKey: Guid(68a3ab96ab9014875b8e28de4dcec8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemons/bulbasaur-pokemon-go.prefab using Guid(68a3ab96ab9014875b8e28de4dcec8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03b9cb5644cee05bc9e4dc9c060d198') in 0.019977 seconds 
+  Import took 0.024905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.432096 seconds.
+  path: Assets/Pokemons/Bulabasur/fushigidane-0-0.tga
+  artifactKey: Guid(da07994cf8a91481a981773c0f191fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokemons/Bulabasur/fushigidane-0-0.tga using Guid(da07994cf8a91481a981773c0f191fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662db0e8c1dc40f4daaed40801eb1e6c') in 0.007404 seconds 
+  Import took 0.011357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 120.653112 seconds.
+  path: Assets/Pokemons/Bulabasur/bulbasaur-pokemon-go.dae
+  artifactKey: Guid(d035a4f225c8f4704aad536f06ac66d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokemons/Bulabasur/bulbasaur-pokemon-go.dae using Guid(d035a4f225c8f4704aad536f06ac66d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f49fcf65921406f89828329488670f8') in 0.095963 seconds 
+  Import took 0.099634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.402298 seconds.
+  path: Assets/Prefabs/Pokemons/charizard-pokemon-go.prefab
+  artifactKey: Guid(2631e66450d8c493da464b3ba73ddd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemons/charizard-pokemon-go.prefab using Guid(2631e66450d8c493da464b3ba73ddd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a39be14d1e824fff222a0f8adf4fa6') in 0.031801 seconds 
+  Import took 0.042644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.119229 seconds.
+  path: Assets/Pokemons/Squirtle
+  artifactKey: Guid(6a24c114c4fa344e8ace57be9119e1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokemons/Squirtle using Guid(6a24c114c4fa344e8ace57be9119e1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4039304bb5a0df1c42cc59de0e6d9958') in 0.001897 seconds 
+  Import took 0.005853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.680199 seconds.
+  path: Assets/Pokemons/Squirtle/zenigameeyedh.tga
+  artifactKey: Guid(128d480cb60d940ddbf56e7389bd0a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokemons/Squirtle/zenigameeyedh.tga using Guid(128d480cb60d940ddbf56e7389bd0a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b05c0f05dc7693db72c312d37e59551') in 0.024181 seconds 
+  Import took 0.029323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.502393 seconds.
+  path: Assets/Prefabs/Pokemons/squirtle-pokemon-go.prefab
+  artifactKey: Guid(8eb5d0b00276e4c08af5ade880db24f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemons/squirtle-pokemon-go.prefab using Guid(8eb5d0b00276e4c08af5ade880db24f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9b3e6f2fc91a808dbbb3a1c6ffc7db') in 0.018328 seconds 
+  Import took 0.022214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.624947 seconds.
+  path: Assets/Pokemons/Squirtle/squirtle-pokemon-go.dae
+  artifactKey: Guid(1af205f3191b44f83a6f5eb086bf1040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pokemons/Squirtle/squirtle-pokemon-go.dae using Guid(1af205f3191b44f83a6f5eb086bf1040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0fbd7719c4cbc2bba7183d0ae491198') in 0.043662 seconds 
+  Import took 0.047731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.369296 seconds.
+  path: Assets/Prefabs/Pokemons/squirtle-pokemon-go.prefab
+  artifactKey: Guid(8eb5d0b00276e4c08af5ade880db24f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemons/squirtle-pokemon-go.prefab using Guid(8eb5d0b00276e4c08af5ade880db24f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e4b8b9a70138d77cb1a6d0ab465f62') in 0.016951 seconds 
+  Import took 0.021494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 174.475444 seconds.
+  path: Assets/Prefabs/Pokemons/squirtle-pokemon-go.prefab
+  artifactKey: Guid(8eb5d0b00276e4c08af5ade880db24f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pokemons/squirtle-pokemon-go.prefab using Guid(8eb5d0b00276e4c08af5ade880db24f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85717c6a0547e890da563bffab63ce4a') in 0.020119 seconds 
+  Import took 0.030244 seconds .
+
